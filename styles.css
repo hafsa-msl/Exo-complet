@@ -1,0 +1,6 @@
+body {
+    background: url(Images/background.jpg) no-repeat fixed;
+    background-size: cover;
+    color :white;
+    margin: 0, auto;
+}
