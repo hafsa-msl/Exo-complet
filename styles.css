@@ -133,4 +133,26 @@ footer a{
         border-radius: 10px;
         padding: 5px;
         }
+
+.overlay {
+            height: 100%;
+            width: 100%;
+            background: linear-gradient(180deg, #f25a29 0%, #373737 100%);
+            /* Disposition flex */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            border: 2px solid #f25a29;
+            border-radius: 10px;
+            }
+
+.overlay img{
+            width: 140px;
+            }
+.overlay p {
+            font-size: 25px;
+            text-align: center;
+            border-radius: 10px;
+            }
     
