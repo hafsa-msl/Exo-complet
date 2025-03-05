@@ -155,7 +155,7 @@ footer a{
             text-align: center;
             border-radius: 10px;
             }
-            
+
 
 #cocktails>div {
                 position: relative;
@@ -188,3 +188,24 @@ footer a{
                 transform: rotate(360deg) ;
                 }
     
+                .overlay {
+                    position: absolute;
+                    height: 100%;
+                    width: 100%;
+                    right: 100%;
+                    transition: all 1s;
+                    background: linear-gradient(180deg, #f25a29 0%, #373737 100%);
+                    /* Disposition flex */
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+                    border: 2px solid #f25a29;
+                    border-radius: 10px;
+                    }
+                    #cocktails>div:hover .overlay {
+                    z-index: 1;
+                    transform: rotate(360deg);
+                    top: 0px;
+                    }
+                    
