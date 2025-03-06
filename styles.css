@@ -250,4 +250,11 @@ footer a{
                             transform: rotate(360deg);
                             bottom: 0px;
                             }
-                            
+#cocktails {
+     padding: 150px 20px;
+     margin: 10px 20%;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+}
